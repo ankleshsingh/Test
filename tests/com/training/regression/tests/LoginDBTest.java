@@ -51,6 +51,7 @@ public class LoginDBTest {
 	public void tearDown() throws Exception {
 		Thread.sleep(1000);
 		driver.quit();
+		System.out.println();
 	}
 
 
